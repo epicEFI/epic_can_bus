@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "luaName": "setFuelAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 2,
+    "luaName": "setFuelMult",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 3,
+    "luaName": "setTimingAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 4,
+    "luaName": "setTimingMult",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 5,
+    "luaName": "setBoostTargetAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 6,
+    "luaName": "setBoostTargetMult",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 7,
+    "luaName": "setBoostDutyAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 8,
+    "luaName": "setIdleAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 9,
+    "luaName": "setIdleRpm",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 10,
+    "luaName": "getEtbTarget",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 11,
+    "luaName": "setEtbAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 12,
+    "luaName": "setEwgAdd",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 13,
+    "luaName": "setEtbDisabled",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 14,
+    "luaName": "setIgnDisabled",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 15,
+    "luaName": "setFuelDisabled",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 16,
+    "luaName": "setDfcoDisabled",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 17,
+    "luaName": "setClutchUpState",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 18,
+    "luaName": "setClutchDownState",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 19,
+    "luaName": "setBrakePedalState",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 20,
+    "luaName": "setAcRequestState",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 21,
+    "luaName": "setTorqueReductionState",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 22,
+    "luaName": "getGpPwm",
+    "arg": "F32",
+    "ret": "F32"
+  },
+  {
+    "id": 23,
+    "luaName": "getCanBaudRate",
+    "arg": "F32",
+    "ret": "F32"
+  },
+  {
+    "id": 24,
+    "luaName": "setSparkSkipRatio",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 25,
+    "luaName": "setSparkHardSkipRatio",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 26,
+    "luaName": "setLaunchTrigger",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 27,
+    "luaName": "setRollingIdleTrigger",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 28,
+    "luaName": "selfStimulateRPM",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 29,
+    "luaName": "enableCanTx",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 30,
+    "luaName": "getCanRxDropped",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 31,
+    "luaName": "disableExtendedCanBroadcast",
+    "arg": "NONE",
+    "ret": "NONE"
+  },
+  {
+    "id": 32,
+    "luaName": "getIdlePosition",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 33,
+    "luaName": "getTorque",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 34,
+    "luaName": "restartEtb",
+    "arg": "NONE",
+    "ret": "NONE"
+  },
+  {
+    "id": 35,
+    "luaName": "setDacVoltage",
+    "arg": "F32",
+    "ret": "NONE"
+  },
+  {
+    "id": 36,
+    "luaName": "getEngineState",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 37,
+    "luaName": "getTimeSinceAcToggleMs",
+    "arg": "NONE",
+    "ret": "F32"
+  },
+  {
+    "id": 38,
+    "luaName": "setLuaGauge",
+    "arg": "F32_I16",
+    "ret": "NONE"
+  }
+]
